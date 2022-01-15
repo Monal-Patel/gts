@@ -70,6 +70,7 @@ GTS_C_VAR const guint gts_binary_age;
 #define GTS_OBJ_TOKENS     ""
 
 #define GTS_MAINTAINER "luis94855510@gmail.com"
+#define USE_SURFACE_BTREE 1
 
 /* Class declarations for base types */
 
