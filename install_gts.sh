@@ -1,5 +1,5 @@
 #!/bin/sh
 ./autogen.sh
-./configure
-make install --prefix=Location_of_install
-sudo make install
+./configure --prefix=$PWD/install
+make install 
+# need to add GTS_HOME/install/lib to $PATH and $LD_LIBRARY_PATH
